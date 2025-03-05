@@ -1,9 +1,9 @@
 import Post from "./Post.jsx";
-import clasees from "./PostLists.module.css";
+import classes from "./PostLists.module.css";
 
 function PostLists() {
   return (
-    <ul className={clasees.posts}>
+    <ul className={classes.posts}>
       <Post author="John" body="Hello, world!" />
       <Post author="Jane" body="Hi, there!" />
       <Post author="alirr " body="react great" />
