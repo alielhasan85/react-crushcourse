@@ -19,7 +19,7 @@ function NewPost({ onCancel, onAddPost }) {
       author: author,
       text: text,
     };
-    onAddPost(newPost);
+
     console.log(newPost);
     onCancel();
   }
